@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+    <table id="table">
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Idade</th>
+            <th>Estado</th>
+        </tr>
+        <tr class="pessoa">
+            <td>Carlos</td>
+            <td>carlos@gmail.com</td>
+            <td>45</td>
+            <td>São Paulo</td>
+        </tr>
+    </table>
+    <form action="" id="form">
+        <ul id="mensagemErro"></ul>
+        <label for="nome">Nome</label><br>
+        <input type="text" id="nome" placeholder="Insira o nome" autocomplete="off"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="Ex: fulano@gmail.com" autocomplete="off"><br><br>
+        <label for="Idade">Idade</label><br>
+        <input type="number" id="idade"><br><br>
+        <label for="estado">Estado</label><br>
+        <input type="text" id="estado" autocomplete="off"><br><br>
+        <button type="button" id="submit">Enviar</button>
+    </form>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
